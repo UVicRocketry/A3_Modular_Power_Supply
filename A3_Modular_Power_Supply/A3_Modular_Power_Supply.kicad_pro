@@ -506,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "A3_Modular_Power_Supply.step",
       "svg": "",
       "vrml": ""
     },
