@@ -1,0 +1,240 @@
+(footprint "L_Wurth_WE-XHMI-6060P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Shielded Power Inductor, body 6.4x6.6x6.1mm, https://www.we-online.com/en/components/products/WE-XHMI#/articles/WE-XHMI-6060-P")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -4.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9769f4fa-b139-4046-a347-0540e1037cd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-XHMI-6060P"
+		(at 0 4.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b16a5c93-17d9-47f6-a081-baa998fb1df4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a91e3f63-52af-411e-bfea-9e3e7f6febc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7d4910a-0dc5-4d75-bb5b-dc812d6e22e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.31 3.41)
+		(end -3.31 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c06986f-6785-4607-936c-b7d9e47f5471")
+	)
+	(fp_line
+		(start -3.31 3.41)
+		(end 3.31 3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca4c3314-be90-479d-a40e-c3d7da0578fb")
+	)
+	(fp_line
+		(start 0 -3.41)
+		(end 3.31 -3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59932cc5-93c6-471e-9c9c-873d1fcc5a9a")
+	)
+	(fp_line
+		(start 3.31 -3.41)
+		(end 3.31 3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b35f324b-8023-4ce7-97d6-51e2a06abe5b")
+	)
+	(fp_rect
+		(start -3.45 -3.55)
+		(end 3.45 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f108ecb8-d5ff-419c-ba04-ac01de00827b")
+	)
+	(fp_line
+		(start -3.2 -1.7)
+		(end -3.2 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91e5f459-24cf-470a-894f-6e2a7ab5f512")
+	)
+	(fp_line
+		(start -3.2 3.3)
+		(end 3.2 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d571842b-64a7-4fa4-a9ab-a58dd9e6e5c0")
+	)
+	(fp_line
+		(start -1.6 -3.3)
+		(end -3.2 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "411dc1a8-120b-459e-bef6-5e94eaf5be7e")
+	)
+	(fp_line
+		(start 3.2 -3.3)
+		(end -1.6 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bcf7c22-c7b3-4044-8eba-2d6b3b529fa0")
+	)
+	(fp_line
+		(start 3.2 3.3)
+		(end 3.2 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "efa251f6-1f3e-4725-92a4-062c3fd62f80")
+	)
+	(fp_text user "Solder Resist"
+		(at 0 -1.775 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "4d400ec9-8a52-4132-8e96-22f601ec8eac")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75eb9f7c-73a9-4250-b37e-6bdc91b6fdc9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2 0)
+		(size 1.45 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df364233-c73b-4de2-b358-eff78976451e")
+	)
+	(pad "2" smd rect
+		(at 2 0)
+		(size 1.45 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "519a4876-dae6-4424-a025-ce428ab90917")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "Dwgs.User")
+		(uuid "07827ca0-1939-4856-917d-049f661c82d4")
+		(name "Solder Resist")
+		(hatch full 0.1)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.275 3.55) (xy 1.275 3.55) (xy 1.275 -3.55) (xy -1.275 -3.55)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${WE_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-XHMI-6060P.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
