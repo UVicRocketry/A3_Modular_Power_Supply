@@ -7278,7 +7278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.4498 93.345 0)
 			(hide yes)
 			(show_name no)
@@ -11774,7 +11774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 260.6548 86.995 0)
 			(hide yes)
 			(show_name no)
@@ -11846,7 +11846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSD17522Q5A"
+		(property "Value" "CSD17505Q5A"
 			(at 132.08 69.2149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11931,7 +11931,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d946523-f152-4522-b995-c7e098d9c25d")
 		(property "Reference" "Q3"
-			(at 141.605 163.195 90)
+			(at 141.605 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11940,8 +11940,8 @@
 				)
 			)
 		)
-		(property "Value" "CSD17522Q5A"
-			(at 141.605 165.735 90)
+		(property "Value" "CSD17505Q5A"
+			(at 141.605 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13640,7 +13640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSD17522Q5A"
+		(property "Value" "CSD17505Q5A"
 			(at 132.08 56.5149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14042,7 +14042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.2498 147.955 0)
 			(hide yes)
 			(show_name no)
